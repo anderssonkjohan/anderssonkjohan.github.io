@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Johan — Portfolio</title>
+<title>Portfolio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
@@ -20,6 +20,8 @@
   html{ scroll-behavior:smooth; }
 
   body{
+    margin:0;
+    padding:0;
     background:var(--white);
     color:var(--black);
     font-family:'Inter', Helvetica, Arial, sans-serif;
@@ -84,6 +86,7 @@
   /* ---------- Hero ---------- */
   .hero{
     position:relative;
+    width:110vw;
     height:100vh;
     background:var(--black);
     display:flex;
@@ -178,7 +181,6 @@
   /* ---------- Section shell ---------- */
   section{
     padding:140px 48px;
-    max-width:1280px;
     margin:0 auto;
   }
 
@@ -327,8 +329,9 @@
 
   .contact-link{
     display:inline-block;
-    font-size:clamp(1rem, 7vw, 5rem);
+    font-size:clamp(1rem, 5vw, 3rem);
     font-weight:700;
+    style: none;
     letter-spacing:-0.02em;
     border-bottom:3px solid transparent;
     transition:border-color .3s ease, color .3s ease;
@@ -365,17 +368,17 @@
 <nav>
   <div class="wordmark">johan<span class="dot">.</span></div>
   <div class="nav-links">
-    <a href="#work">Work</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
+    <a href="#work">Projekt</a>
+    <a href="#about">Om</a>
+    <a href="#contact">Kontakt</a>
   </div>
 </nav>
 
 <section class="hero">
   <div class="hero-inner">
-    <div class="hero-eyebrow">Product designer &amp; developer</div>
-    <h1>I build quiet, precise digital things.</h1>
-    <p class="hero-sub">Based in Stockholm. Working with a handful of clients each year on interfaces, systems, and the occasional strange idea.</p>
+    <div class="hero-eyebrow">UX design &amp; grafisk design</div>
+    <h1>Digital design genom omsorgsfullt arbete ödmjukhet och mani.</h1>
+    <p class="hero-sub">Baserad i Norrköping. ...... och stundvis spontana idéer.</p>
   </div>
   <div class="scroll-cue">Scroll</div>
 </section>
